@@ -18,7 +18,7 @@ DO NOT EDIT THE CSS DIRECTLY
 /* ----------- iPad mini, 1 and 2 ----------- */
 /* ----------- iPad 3 and 4 ----------- */
 .column {
-  float: left;
+  display: inline-block;
 }
 
 .col-20 {
@@ -30,17 +30,14 @@ DO NOT EDIT THE CSS DIRECTLY
 }
 
 .col-30 {
-  display: inline-flex;
   width: 30%;
 }
 
 .col-33 {
-  display: inline-flex;
   width: 33%;
 }
 
 .col-50 {
-  display: inline-flex;
   width: 50%;
 }
 
@@ -59,7 +56,7 @@ DO NOT EDIT THE CSS DIRECTLY
 body {
   font: "Lato", sans-serif;
   font-size: 1.2em;
-  color: #000000;
+  color: #3e3e3e;
 }
 
 h1 {
@@ -90,6 +87,22 @@ h5 {
 h6 {
   color: #000000;
   font-size: 0.7em;
+}
+
+nav {
+  background: #f8f8f8;
+  padding: 10px;
+}
+nav ul {
+  margin: 0px;
+  list-style: none;
+}
+nav ul li {
+  display: inline;
+  padding: 10px 20px;
+}
+nav ul li.active {
+  color: #007ef4;
 }
 
 p {
@@ -144,11 +157,15 @@ a:hover {
 }
 
 .float-left {
-  float: left;
+  float: left !important;
 }
 
 .float-right {
-  float: right;
+  float: right !important;
+}
+
+.text-center {
+  text-align: center;
 }
 
 p {

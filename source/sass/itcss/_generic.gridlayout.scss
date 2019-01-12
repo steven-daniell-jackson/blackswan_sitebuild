@@ -1,6 +1,5 @@
 .column {
-
-    float: left;
+  display: inline-block;
   }
   
   .col-20 {
@@ -12,16 +11,13 @@
   }
   
   .col-30 {
-  display: inline-flex;
     width: 30%;
   }
   
   .col-33 {
-  display: inline-flex;
     width: 33%;
   }
   .col-50 {
-  display: inline-flex;
     width: 50%;
   }
   .col-75 {

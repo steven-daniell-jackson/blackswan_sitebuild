@@ -1,0 +1,17 @@
+nav {
+    background: $nav-bg-color;
+    padding: 10px;
+    & ul {
+        margin: 0px;
+        list-style: none;
+        & li {
+        &.active {
+            color: $activeLinkColor;
+        }
+        display: inline;
+        padding: 10px 20px;
+        }
+    }
+
+}
+
