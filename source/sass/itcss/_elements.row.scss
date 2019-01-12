@@ -1,0 +1,11 @@
+.row {
+    line-height: 4.5rem;
+    display: flex;
+   /*padding: 10px;*/
+}
+
+.row:after {
+ content: "";
+ display: table;
+ clear: both;
+}

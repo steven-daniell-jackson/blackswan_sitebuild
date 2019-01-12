@@ -1,0 +1,64 @@
+/*!
+This is a generated stylesheet
+Written by Steven Jackson - 21 July 2016 
+
+IMPORTANT:
+DO NOT EDIT THE CSS DIRECTLY
+*/ 
+
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+// @import 'itcss/_settings';
+@import 'itcss/_settings.breakpoints';
+@import 'itcss/_settings.colors';
+@import 'itcss/_settings.fonts';
+@import 'itcss/_settings.headings';
+@import 'itcss/_settings.links';
+
+@import 'itcss/_generic.gridlayout';
+@import 'itcss/_generic.reset';
+
+@import 'itcss/_elements.body';
+@import 'itcss/_elements.headings';
+@import 'itcss/_elements.navbar';
+@import 'itcss/_elements.paragraph';
+@import 'itcss/_elements.row';
+
+
+
+@import 'itcss/_tools.mixins';
+@import 'itcss/_tools.mixins';
+@import 'itcss/_utilities.helper';
+
+
+
+
+// Override Variables.
+$baseFontStack: 'Lato', sans-serif;
+$baseFontSize: 1.2em;
+$baseFontColor: #616161;
+$baseParagraphFontSize: 1.3em;
+
+// Headings (Headings up till H6 availble)
+$baseHeadingColor: #1c1c1c;
+$baseH1FontSize : 2em;
+$baseH2FontSize : 1.7em;
+$baseH3FontSize : 1.17em;
+
+// Links
+$baseTextLinkColor: $white;
+$baseBackgroundLinkColor: #222;
+$baseLinkPadding: 20px 10px;
+
+
+
+// Custom styles
+
+p {border-top: 1px solid #eee; @include small-padding-spacer();}
+
+
+
+
+
+// // Load __base.scss last so that variables are overwritten
+// @import 'helper/_base';

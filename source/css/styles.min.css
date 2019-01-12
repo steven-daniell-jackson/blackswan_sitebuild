@@ -1,0 +1,7 @@
+/*!
+This is a generated stylesheet
+Written by Steven Jackson - 21 July 2016 
+
+IMPORTANT:
+DO NOT EDIT THE CSS DIRECTLY
+*/.col-30,.col-33,.col-50{display:inline-flex}body,h1,h2,h3,h4,h5,h6,p{color:#000}a,a:hover{background-color:#000!important;color:#000!important}.column,.float-left{float:left}@font-face{font-family:Lato;font-style:normal;font-weight:400;src:local('Lato Regular'),local('Lato-Regular'),url(https://fonts.gstatic.com/s/lato/v14/S6uyw4BMUTPHjx4wWw.ttf) format('truetype')}.col-20{width:20%}.col-25{width:25%}.col-30{width:30%}.col-33{width:33%}.col-50{width:50%}.col-75{width:75%}.col-80{width:80%}.col-100{width:100%}body{font:Lato,sans-serif;font-size:1.2em}h1{font-size:2em}h2{font-size:1.5em}h3{font-size:1.17em}h4{font-size:1em}h5{font-size:.83em}h6{font-size:.7em}p{font-size:1.3em;border-top:1px solid #eee;padding:20px 0}.row{line-height:4.5rem;display:flex}.row:after{content:"";display:table;clear:both}a{padding:10px 20px!important;-webkit-transition:all linear .3s;-o-transition:all linear .3s;transition:all linear .3s}a:hover{padding:#000!important;-webkit-transition:all linear .6s;-o-transition:all linear .6s;transition:all linear .6s}.float-right{float:right}

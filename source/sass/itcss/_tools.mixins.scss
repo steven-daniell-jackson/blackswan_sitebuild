@@ -1,0 +1,59 @@
+
+// Default Mixin
+@mixin link-style(
+	$padding:$baseLinkPadding,
+	$background-color:$baseBackgroundLinkColor,
+	$text-color:$baseTextLinkColor
+	)
+{
+	padding: $padding !important;
+	background-color:$background-color !important;
+	color: $text-color !important;
+}
+
+@mixin link-transition($time:0.5s){ 
+	-webkit-transition: all linear $time; 
+	-o-transition: all linear $time;
+	transition: all linear $time;
+};
+
+
+// Helper Mixin
+@mixin large-margin-spacer() {
+	margin: 40px 0;
+}
+
+@mixin small-margin-spacer() {
+	margin: 20px 0;
+}
+
+@mixin large-padding-spacer() {
+	padding: 40px 0;
+}
+
+@mixin small-padding-spacer() {
+	padding: 20px 0;
+}
+
+@mixin hide () {
+	display: none;
+}
+
+
+a {
+
+	@include link-style(10px 20px);
+	@include link-transition(0.3s);
+	
+	&:hover {
+		@include link-style(#000);
+		@include link-transition(0.6s);
+	}
+}
+
+
+//  Background Images
+@mixin background-image($filename) {
+	background: url($filename) no-repeat center center;
+	background-size: cover;
+}
