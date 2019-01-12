@@ -31,35 +31,3 @@ DO NOT EDIT THE CSS DIRECTLY
 
 @import 'itcss/_utilities.helper';
 
-
-
-
-// Override Variables.
-$baseFontStack: 'Lato', sans-serif;
-$baseFontSize: 1.2em;
-$baseFontColor: #616161;
-$baseParagraphFontSize: 1.3em;
-
-// Headings (Headings up till H6 availble)
-$baseHeadingColor: #1c1c1c;
-$baseH1FontSize : 2em;
-$baseH2FontSize : 1.7em;
-$baseH3FontSize : 1.17em;
-
-// Links
-$baseTextLinkColor: $white;
-$baseBackgroundLinkColor: #222;
-$baseLinkPadding: 20px 10px;
-
-
-
-// Custom styles
-
-p {border-top: 1px solid #eee; @include small-padding-spacer();}
-
-
-
-
-
-// // Load __base.scss last so that variables are overwritten
-// @import 'helper/_base';

@@ -55,8 +55,8 @@ DO NOT EDIT THE CSS DIRECTLY
 
 body {
   font: "Lato", sans-serif;
-  font-size: 1.2em;
-  color: #3e3e3e;
+  font-size: 1em;
+  color: #727272;
 }
 
 h1 {
@@ -106,8 +106,9 @@ nav ul li.active {
 }
 
 p {
-  color: #000000;
-  font-size: 1.3em;
+  color: #727272;
+  font-size: 1em;
+  line-height: normal;
 }
 
 .row {
@@ -166,9 +167,4 @@ a:hover {
 
 .text-center {
   text-align: center;
-}
-
-p {
-  border-top: 1px solid #eee;
-  padding: 20px 0;
 }
