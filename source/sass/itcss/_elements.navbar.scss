@@ -5,7 +5,7 @@ nav {
         margin: 0px;
         list-style: none;
         & li {
-        &.active {
+        &.nav__item--active {
             color: $activeLinkColor;
         }
         display: inline;
