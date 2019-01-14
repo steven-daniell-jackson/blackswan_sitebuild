@@ -59,25 +59,26 @@
           <img class="" src="./img/swansky_logo.png" alt="" width="150">
         </div>
         <div class="column column--50 text-right">
-              <img src="./img/menu.png" height="" alt="">
-                <!-- <ul class="text-center column">
-                  <li class="nav__item nav__item--active">Home</li>
-                  <li class="nav__item">Destinations</li>
-                  <li class="nav__item">Entertainment</li>
-                  <li class="nav__item">News</li>
-                  <li class="nav__item">Weather</li>
-                  <li class="nav__item">Shopping</li>
-                </ul> -->
-    
-              <!-- </nav> -->
-
+            <span onclick="openNav()"><img src="./img/menu.png" height="" alt=""></span>
+              <div id="mySidenav" class="sidenav text-left">
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                  <a href="#">Home</a>
+                  <a href="#">Destination</a>
+                  <a href="#">Entertainment</a>
+                  <a href="#">News</a>
+                  <a href="#">Weather</a>
+                  <a href="#">Shopping</a>
+                  <div class="mobile-dropdown-wrapper"><img src="./img/flag.png" alt=""> <span class="top-bar__content">EN</span> <img src="./img/dropdown-arrow.png" alt=""></div>
               </div>
+                </div>
+
+                    
         </section>
       
       </header>
 
       <!-- Main -->
-      <section id="main">
+      <section>
         <div class="main__wrapper">
 
           <!-- Body Images -->
@@ -162,7 +163,7 @@
     </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
-    <script src="./js/main.js"  async></script>
+    <script src="./js/main.js" ></script>
 
 
   </body>
