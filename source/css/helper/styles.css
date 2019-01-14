@@ -18,9 +18,8 @@ DO NOT EDIT THE CSS DIRECTLY
 /* ----------- iPad mini, 1 and 2 ----------- */
 /* ----------- iPad 3 and 4 ----------- */
 a {
-  padding: 20px 20px 0 0;
+  padding: 15px 20px 0 0;
   color: #000000;
-  background-color: #fff;
   text-decoration: none;
 }
 
@@ -33,6 +32,10 @@ img {
 .column {
   display: inline-block;
   margin: auto 10px;
+}
+
+.column--10 {
+  width: 10%;
 }
 
 .column--20 {
@@ -63,6 +66,10 @@ img {
   width: 80%;
 }
 
+.column--90 {
+  width: 90%;
+}
+
 .column--100 {
   width: 100%;
 }
@@ -71,8 +78,12 @@ img {
 @media only screen and (max-width: 600px) {
   .column {
     display: inline-block;
-    padding: 0;
+    padding: 15px 0;
     margin: 0;
+  }
+
+  .column--10 {
+    width: 10%;
   }
 
   .column--25 {
@@ -103,8 +114,20 @@ img {
     width: 100%;
   }
 
+  .column--90 {
+    width: 90%;
+  }
+
   .column--100 {
     width: 100%;
+  }
+
+  .text-right {
+    text-align: center !important;
+  }
+
+  .text-left {
+    text-align: center !important;
   }
 }
 body {
@@ -160,6 +183,47 @@ nav ul li.nav__item--active {
   color: #007ef4;
 }
 
+#desktop-header {
+  display: block;
+}
+
+#mobile-nav {
+  display: none;
+}
+#mobile-nav .row {
+  display: flex;
+  padding: 0;
+  width: 100%;
+}
+#mobile-nav .column {
+  padding: 0;
+}
+#mobile-nav img {
+  border-radius: 0;
+  max-height: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  #desktop-header {
+    display: none;
+  }
+
+  #mobile-nav {
+    display: flex;
+  }
+
+  #mobile-nav .column--50 {
+    width: 50% !important;
+  }
+
+  #mobile-nav .text-left {
+    text-align: left !important;
+  }
+
+  #mobile-nav .text-right {
+    text-align: right !important;
+  }
+}
 p {
   color: #000;
   font-size: 1em;
@@ -173,7 +237,6 @@ p {
   padding: 20px;
   display: flex;
   padding: 1rem 2rem;
-  /*padding: 10px;*/
 }
 .row:after {
   content: "";
@@ -185,7 +248,6 @@ p {
   .row {
     padding: 20px;
     display: inline-block;
-    margin: 0 1rem;
   }
 }
 .main__wrapper {
@@ -197,8 +259,8 @@ p {
   color: #7f7f7f;
 }
 
-.topbar {
-  line-height: 0;
+.top-bar__content {
+  padding: 0 5px;
 }
 
 .card {
@@ -207,6 +269,8 @@ p {
   border-radius: 5px;
   background-color: #fff;
   padding: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .card__heading {
@@ -214,11 +278,16 @@ p {
   padding: 5px 0;
 }
 
-.card__content {
+p.card__content {
   margin: 0;
   font-size: 18px;
   padding: 0;
   color: #000000;
+  font-weight: 700;
+}
+
+footer {
+  box-shadow: 0px 0px 10px 0px #d4d4d4;
 }
 
 .float-left {

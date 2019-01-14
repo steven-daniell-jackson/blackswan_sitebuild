@@ -4,6 +4,9 @@
     border-radius: 5px;
     background-color: #fff;
     padding: 20px;
+    // white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .card__heading {
@@ -11,9 +14,10 @@
     padding: 5px 0;
 }
 
-.card__content {
+p.card__content {
 margin: 0;
 font-size: 18px;
 padding: 0;
 color: $black;
+font-weight: 700;
 }
