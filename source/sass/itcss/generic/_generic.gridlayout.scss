@@ -39,7 +39,7 @@
   
   /* Media Queries */
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: $iphone6-max-width) {
     .column {
       display: inline-block;
       padding: 15px 0;
