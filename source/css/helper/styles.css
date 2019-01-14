@@ -17,11 +17,17 @@ DO NOT EDIT THE CSS DIRECTLY
 /* ----------- Tablets ----------- */
 /* ----------- iPad mini, 1 and 2 ----------- */
 /* ----------- iPad 3 and 4 ----------- */
+a {
+  padding: 20px 20px 0 0;
+  color: #000000;
+  background-color: #fff;
+  text-decoration: none;
+}
+
 img {
   max-width: 100%;
   height: auto;
   border-radius: 5px;
-  margin: 0 10px;
 }
 
 .column {
@@ -104,7 +110,7 @@ img {
 body {
   font: "Lato", sans-serif;
   font-size: 1em;
-  color: #727272;
+  color: #000;
   margin: 0px;
 }
 
@@ -120,7 +126,7 @@ h2 {
 
 h3 {
   color: #000000;
-  font-size: 1.17em;
+  font-size: 20px;
 }
 
 h4 {
@@ -155,10 +161,12 @@ nav ul li.nav__item--active {
 }
 
 p {
-  color: #727272;
+  color: #000;
   font-size: 1em;
   line-height: normal;
   border: none;
+  padding: 0px;
+  margin: 0px;
 }
 
 .row {
@@ -167,7 +175,6 @@ p {
   padding: 1rem 2rem;
   /*padding: 10px;*/
 }
-
 .row:after {
   content: "";
   display: table;
@@ -183,6 +190,11 @@ p {
 }
 .main__wrapper {
   background-image: linear-gradient(#d2d2d2, #fafafa);
+  padding: 20px 0 40px 0;
+}
+
+.main__wrapper p {
+  color: #7f7f7f;
 }
 
 .topbar {
@@ -199,12 +211,14 @@ p {
 
 .card__heading {
   margin: 0;
-  padding: 0;
+  padding: 5px 0;
 }
 
 .card__content {
   margin: 0;
+  font-size: 18px;
   padding: 0;
+  color: #000000;
 }
 
 .float-left {
@@ -217,4 +231,20 @@ p {
 
 .text-center {
   text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.boxshadow--grey {
+  box-shadow: 0px 0px 10px 0px #d4d4d4;
+}
+
+.borderradius--small {
+  border-radius: 5px;
 }

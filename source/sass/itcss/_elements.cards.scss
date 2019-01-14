@@ -1,6 +1,6 @@
 .card {
     height: 205px;
-    box-shadow: 0px 0px 10px 0px $boxshadow_grey;
+   @include boxshadow--grey;
     border-radius: 5px;
     background-color: #fff;
     padding: 20px;
@@ -8,10 +8,12 @@
 
 .card__heading {
     margin: 0;
-    padding: 0;
+    padding: 5px 0;
 }
 
 .card__content {
 margin: 0;
+font-size: 18px;
 padding: 0;
+color: $black;
 }

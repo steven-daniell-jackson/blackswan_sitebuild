@@ -8,7 +8,6 @@ DO NOT EDIT THE CSS DIRECTLY
 
 @import url(https://fonts.googleapis.com/css?family=Lato);
 
-// @import 'itcss/_settings';
 @import 'itcss/_settings.breakpoints';
 @import 'itcss/_settings.colors';
 @import 'itcss/_settings.fonts';
@@ -19,6 +18,8 @@ DO NOT EDIT THE CSS DIRECTLY
 @import 'itcss/_generic.gridlayout';
 @import 'itcss/_generic.reset';
 
+@import 'itcss/_tools.mixins';
+
 @import 'itcss/_elements.body';
 @import 'itcss/_elements.headings';
 @import 'itcss/_elements.navbar';
@@ -27,9 +28,6 @@ DO NOT EDIT THE CSS DIRECTLY
 @import 'itcss/_elements.main';
 @import 'itcss/_elements.topbar';
 @import 'itcss/_elements.cards';
-
-@import 'itcss/_tools.mixins';
-@import 'itcss/_tools.mixins';
 
 @import 'itcss/_utilities.helper';
 

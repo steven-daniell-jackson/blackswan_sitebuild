@@ -1,3 +1,8 @@
 .main__wrapper {
     background-image: linear-gradient(#d2d2d2, #fafafa);
+    padding: 20px 0 40px 0;
+}
+
+.main__wrapper p {
+    color: $paragraphColor_grey;
 }

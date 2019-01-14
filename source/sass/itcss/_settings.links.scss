@@ -1,4 +1,11 @@
 // Links
 $baseTextLinkColor: $black !default;
-$baseBackgroundLinkColor: $black !default;
-$baseLinkPadding: 20px 10px !default;
+$baseBackgroundLinkColor: $white !default;
+$baseLinkPadding: 20px 20px 0 0 !default;
+
+a {
+    padding: $baseLinkPadding;
+    color: $baseTextLinkColor;
+    background-color: $baseBackgroundLinkColor;
+    text-decoration: none;
+}
