@@ -8,27 +8,27 @@ DO NOT EDIT THE CSS DIRECTLY
 
 @import url(https://fonts.googleapis.com/css?family=Lato);
 
-@import 'itcss/_settings.breakpoints';
-@import 'itcss/_settings.colors';
-@import 'itcss/_settings.fonts';
-@import 'itcss/_settings.headings';
-@import 'itcss/_settings.links';
-@import 'itcss/_settings.images';
+@import 'itcss/settings/_settings.breakpoints';
+@import 'itcss/settings/_settings.colors';
+@import 'itcss/settings/_settings.fonts';
+@import 'itcss/settings/_settings.headings';
+@import 'itcss/settings/_settings.links';
+@import 'itcss/settings/_settings.images';
 
-@import 'itcss/_generic.gridlayout';
-@import 'itcss/_generic.reset';
+@import 'itcss/generic/_generic.gridlayout';
+@import 'itcss/generic/_generic.reset';
 
 @import 'itcss/_tools.mixins';
 
-@import 'itcss/_elements.body';
-@import 'itcss/_elements.headings';
-@import 'itcss/_elements.navbar';
-@import 'itcss/_elements.paragraph';
-@import 'itcss/_elements.row';
-@import 'itcss/_elements.main';
-@import 'itcss/_elements.topbar';
-@import 'itcss/_elements.cards';
-@import 'itcss/_elements.footer';
+@import 'itcss/elements/_elements.body';
+@import 'itcss/elements/_elements.headings';
+@import 'itcss/elements/_elements.navbar';
+@import 'itcss/elements/_elements.paragraph';
+@import 'itcss/elements/_elements.row';
+@import 'itcss/elements/_elements.main';
+@import 'itcss/elements/_elements.topbar';
+@import 'itcss/elements/_elements.cards';
+@import 'itcss/elements/_elements.footer';
 
 @import 'itcss/_utilities.helper';
 
